@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border: solid red;
+    width: 92.5%;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .header {
+        margin-bottom: 56px;
+    }
+
+}

@@ -1,0 +1,6 @@
+.intro {
+  border: solid red;
+  color: #FFF;
+  max-width: 690px;
+  margin-left: calc((7.5%)/2);
+}

@@ -1,11 +1,19 @@
 .photo-grid {
-  border: solid green;
   max-width: 92.5%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(284px, max-content));
   gap: 16px;
   margin-bottom: 92px;
 }
+
+@media screen and (min-width:1280px) {
+
+  .photo-grid {
+      max-width: 1184px;
+  }
+
+}
+
 
 

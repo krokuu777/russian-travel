@@ -9,6 +9,10 @@
     margin-top: 12px;
 }
 
+.places__link:hover {
+  opacity: 0.800000011920929;
+}
+
 p {
     margin: 0;
 }

@@ -6,17 +6,16 @@
     font-style: normal;
     font-weight: 900;
     line-height: 1.05; /* 105.556% */
-    border: solid red;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .places__title {
         font-size: 2.6rem;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 
     .places__title {
         font-size: 2rem;

@@ -7,23 +7,23 @@
    grid-row-gap: 48px;
    grid-column-gap: 5%;
    width: 100%;
-   margin-bottom:80px;
-}
-
-.places__place:last-of-type {
+   margin-bottom: 80px;
+ }
+ 
+ .places__place:last-of-type {
    margin: 0;
-}
-
-@media screen and (max-width: 320px) {
-
+ }
+ 
+ @media screen and (max-width: 320px) {
    .places__place {
-      color: #fff;
-      margin: 0;
-      display: grid;
-      grid-template-columns: minmax(min-content, max-content);
-      grid-template-rows: repeat(2, minmax(min-content, max-content));
-      grid-row-gap: 48px;
-      grid-column-gap: 5%;
-      width: 100%;
+     color: #fff;
+     margin: 0;
+     display: grid;
+     grid-template-columns: minmax(min-content, max-content);
+     grid-template-rows: repeat(2, minmax(min-content, max-content));
+     grid-row-gap: 48px;
+     grid-column-gap: 5%;
+     width: 100%;
    }
  }
+ 

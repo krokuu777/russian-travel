@@ -1,15 +1,12 @@
 .intro {
-  color: #FFF;
+  color: #fff;
   max-width: 690px;
-  margin-left: calc((7.5%)/2);
+  margin-left: calc((7.5%) / 2);
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
   .intro {
     width: 92.5%;
     margin: auto;
-    
   }
-
 }

@@ -2,18 +2,13 @@
   max-width: 92.5%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(284px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   gap: 16px;
   margin-bottom: 92px;
 }
 
-@media screen and (min-width:1280px) {
-
+@media screen and (min-width: 1280px) {
   .photo-grid {
-      max-width: 1184px;
+    max-width: 1184px;
   }
-
 }
-
-
-

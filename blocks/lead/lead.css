@@ -1,13 +1,12 @@
 .lead {
-color: white;
-max-width: 92.5%;
-margin: auto;
-margin-bottom: 92px;
+  color: white;
+  max-width: 92.5%;
+  margin: auto;
+  margin-bottom: 92px;
 }
 
-@media screen and (max-width:1000px) {
-
+@media screen and (max-width: 1000px) {
   .lead {
-  max-width:100%;
-}
+    max-width: 100%;
+  }
 }

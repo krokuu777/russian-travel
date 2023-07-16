@@ -2,8 +2,26 @@
    color: #fff;
    margin: 0;
    display: grid;
-   grid-template-columns:  repeat(2, minmax(min-content, max-content));
+   grid-template-columns: 46% minmax(49%, max-content);
    grid-template-rows: repeat(2, minmax(min-content, max-content));
-   gap: 15px 15px;
+   grid-row-gap: 48px;
+   grid-column-gap: 5%;
    border: solid green;
+   width: 100%;
+   margin-bottom:80px;
 }
+
+@media screen and (max-width: 320px) {
+
+   .places__place {
+      color: #fff;
+      margin: 0;
+      display: grid;
+      grid-template-columns: minmax(min-content, max-content);
+      grid-template-rows: repeat(2, minmax(min-content, max-content));
+      grid-row-gap: 48px;
+      grid-column-gap: 5%;
+      border: solid green;
+      width: 100%;
+   }
+ }
